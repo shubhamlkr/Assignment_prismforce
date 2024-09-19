@@ -52,9 +52,7 @@ true if Abhimanyu can proceed to the next circle, false otherwise.
 
 Example Test Cases
 
-int main()
-{
-    vector<int> powerOfEnemies1 = {10, 14, 2, 3, 3, 3, 2, 3, 3, 3, 3};
+vector<int> powerOfEnemies1 = {10, 14, 2, 3, 3, 3, 2, 3, 3, 3, 3};
     int p1 = 16;  // initial power of abhimanyu
     int a1 = 1;   // times abhimanyu can skip enemies
     int b1 = 2;   // times abhimanyu can recharge himself with power
@@ -73,7 +71,6 @@ vector<int> powerOfEnemies2 = {11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
     else
         cout<<"No";
     cout<<endl;
-}
 
 Output:
 Yes
